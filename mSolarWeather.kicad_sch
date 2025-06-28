@@ -4709,7 +4709,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
+		(property "Value" "ESP32-S3-WROOM-1-N16R2"
 			(at 143.1641 82.55 0)
 			(effects
 				(font
@@ -4737,6 +4737,15 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 140.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.fr/ProductDetail/356-ESP32S3WRM1N16R2"
 			(at 140.97 110.49 0)
 			(effects
 				(font
@@ -5826,7 +5835,7 @@
 				)
 			)
 		)
-		(property "Value" "BQ297xy"
+		(property "Value" "BQ29706"
 			(at 46.99 78.74 0)
 			(effects
 				(font
@@ -5957,6 +5966,74 @@
 			(project "Frausti Solar Weather Station"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 58.42 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d852d7de-05d1-4de3-a9a3-1eb78464f9d4")
+		(property "Reference" "J8"
+			(at 58.42 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Solar connector"
+			(at 58.42 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 58.42 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66ed8972-8d7c-413e-926b-230cf9298844")
+		)
+		(pin "2"
+			(uuid "7673eea5-2e2b-4f4d-a167-84c5aab1f0a0")
+		)
+		(instances
+			(project ""
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "J8")
 					(unit 1)
 				)
 			)
