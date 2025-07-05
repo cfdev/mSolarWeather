@@ -5861,6 +5861,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 264.16 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4bc9f43-d9e1-43cb-be84-2585f97718c4")
+		(property "Reference" "J7"
+			(at 266.7 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04  Stemma QT QW-4MM50 connector"
+			(at 238.252 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "79039be6-2f11-46c2-a9f4-1330fe6ff75e")
+		)
+		(pin "1"
+			(uuid "d494e33c-6036-49ed-842f-f2bf82f0d691")
+		)
+		(pin "2"
+			(uuid "249822c6-1afb-47ed-9e12-699c390e9e2e")
+		)
+		(pin "4"
+			(uuid "293f85fa-1548-4db6-b911-30647fccd8df")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Battery_Management:BQ297xy")
 		(at 46.99 86.36 0)
 		(unit 1)
