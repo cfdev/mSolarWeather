@@ -3638,6 +3638,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TPS63020 Buck-boost Converter (TODO) \nMAX17048 batt manager (TODO)\nbq25185 USB / DC / Solar Lithium Ion/Polymer charger (TODO)"
+		(exclude_from_sim no)
+		(at 178.054 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd2d0270-262e-45a8-b100-87e71470e6da")
+	)
 	(junction
 		(at 157.48 36.83)
 		(diameter 0)
