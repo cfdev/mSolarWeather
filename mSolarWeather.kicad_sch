@@ -4211,322 +4211,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push_Dual"
 			(pin_names
 				(offset 1.016)
@@ -5034,6 +4718,304 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:IRLML6401"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRLML6401"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel HEXFET MOSFET Logic-Level"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRLML6401_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRLML6401_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6406,6 +6388,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO"
+		(exclude_from_sim no)
+		(at 242.824 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2dee7c80-ec38-46b0-85f0-09c4640e1c3d")
+	)
 	(text "1.8 V to 5.5 V"
 		(exclude_from_sim no)
 		(at 22.86 17.018 0)
@@ -6469,10 +6461,16 @@
 		(uuid "2b9cb6d8-aa81-409c-9ead-cc29c0e45295")
 	)
 	(junction
-		(at 190.5 39.37)
+		(at 115.57 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3068a513-aa72-4d83-ab3b-74893c0ac0ac")
+	)
+	(junction
+		(at 213.36 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "309e532d-4d3f-412c-9131-0bf4df16ca34")
 	)
 	(junction
 		(at 50.8 64.77)
@@ -6517,7 +6515,7 @@
 		(uuid "5a6e041d-2cbf-4e20-b413-2d696956c557")
 	)
 	(junction
-		(at 209.55 34.29)
+		(at 134.62 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cc97eae-986c-429a-93a8-b7a1a39c4dcc")
@@ -6547,7 +6545,7 @@
 		(uuid "6f977d41-5721-4289-8646-c4a012b1b4c1")
 	)
 	(junction
-		(at 179.07 71.12)
+		(at 171.45 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70adf1ca-0c27-44e9-9935-041e2e9186a1")
@@ -6601,7 +6599,7 @@
 		(uuid "ba35aac6-df4e-4ca1-8cb1-770508f3eb6f")
 	)
 	(junction
-		(at 179.07 62.23)
+		(at 171.45 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb9adaa4-551c-4628-b3e2-83d9b4aa1145")
@@ -6623,6 +6621,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf0270cb-d52c-4544-bcbc-e6794655b675")
+	)
+	(junction
+		(at 190.5 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da15a2b5-c383-471c-a942-6e3255dd3844")
 	)
 	(junction
 		(at 251.46 118.11)
@@ -6653,6 +6657,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee42fd9d-2229-4c69-a183-cc33b4ad3d75")
+	)
+	(junction
+		(at 208.28 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8ae02fd-93e6-411c-a374-df04aae8e14c")
 	)
 	(junction
 		(at 22.86 39.37)
@@ -6727,10 +6737,6 @@
 	(no_connect
 		(at 168.91 107.95)
 		(uuid "d565bdc8-1b85-4339-9a65-358b8cb0f02d")
-	)
-	(no_connect
-		(at 255.27 48.26)
-		(uuid "d741953f-d90a-48af-8cd6-f2cd36974db6")
 	)
 	(no_connect
 		(at 261.62 115.57)
@@ -6946,6 +6952,36 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 34.29) (xy 222.25 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddd026d-5503-4941-b416-b8b0cb2bb6db")
+	)
+	(wire
+		(pts
+			(xy 195.58 34.29) (xy 190.5 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f95b9c8-7f59-498d-a23d-cc433fa12205")
+	)
+	(wire
+		(pts
+			(xy 168.91 123.19) (xy 179.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d86731-044b-4d5a-a5a7-35666d79be73")
+	)
+	(wire
+		(pts
 			(xy 38.1 41.91) (xy 46.99 41.91)
 		)
 		(stroke
@@ -7116,7 +7152,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 34.29) (xy 190.5 39.37)
+			(xy 115.57 62.23) (xy 115.57 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7196,6 +7232,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 76.2) (xy 194.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b83715-7aba-4f37-b57e-04e119d8ac3c")
+	)
+	(wire
+		(pts
 			(xy 242.57 38.1) (xy 255.27 38.1)
 		)
 		(stroke
@@ -7266,13 +7312,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 39.37) (xy 195.58 39.37)
+			(xy 115.57 67.31) (xy 120.65 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a750688-15fa-4ce5-b4bf-5ae36b45aa7d")
+	)
+	(wire
+		(pts
+			(xy 213.36 44.45) (xy 213.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc08ea2-7760-4d4b-a573-3459d5b5d382")
 	)
 	(wire
 		(pts
@@ -7306,6 +7362,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 73.66) (xy 194.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41102849-9b0c-46ad-a856-c1be32b3db80")
+	)
+	(wire
+		(pts
 			(xy 22.86 27.94) (xy 33.02 27.94)
 		)
 		(stroke
@@ -7326,7 +7392,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 71.12) (xy 179.07 71.12)
+			(xy 175.26 69.85) (xy 171.45 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7346,7 +7412,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 69.85) (xy 182.88 71.12)
+			(xy 175.26 68.58) (xy 175.26 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7466,7 +7532,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 71.12) (xy 179.07 72.39)
+			(xy 171.45 69.85) (xy 171.45 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7536,7 +7602,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 34.29) (xy 218.44 34.29)
+			(xy 134.62 62.23) (xy 143.51 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7596,13 +7662,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 39.37) (xy 190.5 45.72)
+			(xy 115.57 67.31) (xy 115.57 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6696699a-8ca2-481e-8061-ae92c2585975")
+	)
+	(wire
+		(pts
+			(xy 176.53 151.13) (xy 186.69 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6746947b-70d5-4117-8f79-03257ea2b709")
 	)
 	(wire
 		(pts
@@ -7686,6 +7762,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 146.05) (xy 186.69 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7465b4-a80a-43d3-a13c-0bf11ecbb482")
+	)
+	(wire
+		(pts
 			(xy 233.68 78.74) (xy 251.46 78.74)
 		)
 		(stroke
@@ -7726,7 +7812,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 69.85) (xy 175.26 71.12)
+			(xy 167.64 68.58) (xy 167.64 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7793,6 +7879,16 @@
 			(type default)
 		)
 		(uuid "75c80349-b811-4c2b-a970-92d936df98b8")
+	)
+	(wire
+		(pts
+			(xy 208.28 34.29) (xy 213.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771c9ddd-0f24-429e-83f2-7b9fe022d50a")
 	)
 	(wire
 		(pts
@@ -7876,7 +7972,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 59.69) (xy 179.07 62.23)
+			(xy 246.38 48.26) (xy 255.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6ac1bd-06de-4b99-9d32-5bf066a2e32e")
+	)
+	(wire
+		(pts
+			(xy 171.45 58.42) (xy 171.45 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7936,7 +8042,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 39.37) (xy 209.55 34.29)
+			(xy 134.62 67.31) (xy 134.62 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8036,7 +8142,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 71.12) (xy 179.07 71.12)
+			(xy 167.64 69.85) (xy 171.45 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8063,6 +8169,16 @@
 			(type default)
 		)
 		(uuid "8eec0f97-6abf-4645-9d1d-a04672682cb0")
+	)
+	(wire
+		(pts
+			(xy 190.5 34.29) (xy 190.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1a8915-f36c-4f0f-8ba2-9cc6f8d7d763")
 	)
 	(wire
 		(pts
@@ -8246,6 +8362,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 148.59) (xy 186.69 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0cadbe6-1b88-4220-a869-79393c91cba1")
+	)
+	(wire
+		(pts
 			(xy 261.62 118.11) (xy 251.46 118.11)
 		)
 		(stroke
@@ -8253,6 +8379,26 @@
 			(type default)
 		)
 		(uuid "a5c3f421-3ad0-4818-bb2a-d08bafe4e1af")
+	)
+	(wire
+		(pts
+			(xy 168.91 105.41) (xy 179.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e053c8-e766-4619-b083-40f716b09374")
+	)
+	(wire
+		(pts
+			(xy 184.15 86.36) (xy 194.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ec15f6-6991-4127-8fb4-b2d90a514074")
 	)
 	(wire
 		(pts
@@ -8276,6 +8422,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 81.28) (xy 194.31 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7af6f19-b397-4f09-88ad-a4313560de4c")
+	)
+	(wire
+		(pts
 			(xy 33.02 30.48) (xy 33.02 27.94)
 		)
 		(stroke
@@ -8293,6 +8449,16 @@
 			(type default)
 		)
 		(uuid "ab479de6-442f-4ecc-8504-83609c73102f")
+	)
+	(wire
+		(pts
+			(xy 184.15 78.74) (xy 194.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0509eb-f29e-48b0-8157-99796200d1c4")
 	)
 	(wire
 		(pts
@@ -8326,7 +8492,27 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 62.23) (xy 182.88 62.23)
+			(xy 176.53 140.97) (xy 186.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b033f4a4-4ec6-4514-904f-697fae115148")
+	)
+	(wire
+		(pts
+			(xy 168.91 125.73) (xy 179.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c74141-c9dc-4dea-9d62-9ecea9d71a58")
+	)
+	(wire
+		(pts
+			(xy 171.45 60.96) (xy 175.26 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8386,7 +8572,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 39.37) (xy 209.55 39.37)
+			(xy 130.81 67.31) (xy 134.62 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8426,13 +8612,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 62.23) (xy 179.07 62.23)
+			(xy 167.64 60.96) (xy 171.45 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c01d34db-9077-4964-8c05-eabcac1be828")
+	)
+	(wire
+		(pts
+			(xy 168.91 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12df3c3-2fad-48b1-b518-34826bda67d7")
 	)
 	(wire
 		(pts
@@ -8506,6 +8702,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 39.37) (xy 195.58 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87bc25a-7f31-4379-8612-172dbd60a985")
+	)
+	(wire
+		(pts
 			(xy 86.36 66.04) (xy 86.36 64.77)
 		)
 		(stroke
@@ -8513,6 +8719,16 @@
 			(type default)
 		)
 		(uuid "c94325b5-e004-40f1-8a6c-2bf9960fdeb9")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4f0ad3-73e7-470a-8076-98c0878b144a")
 	)
 	(wire
 		(pts
@@ -8626,6 +8842,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 22.86) (xy 213.36 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86cf8d1-90a3-4208-a8a5-6fdf1d221043")
+	)
+	(wire
+		(pts
 			(xy 92.71 27.94) (xy 104.14 27.94)
 		)
 		(stroke
@@ -8676,16 +8902,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 148.59) (xy 181.61 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df2247d0-c590-4c2f-9ec9-a73b7850cc00")
-	)
-	(wire
-		(pts
 			(xy 251.46 91.44) (xy 251.46 93.98)
 		)
 		(stroke
@@ -8726,7 +8942,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 34.29) (xy 209.55 34.29)
+			(xy 130.81 62.23) (xy 134.62 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8766,6 +8982,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 138.43) (xy 186.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ae826b-a262-4763-b38e-fd8ba8cd4cda")
+	)
+	(wire
+		(pts
 			(xy 49.53 101.6) (xy 58.42 101.6)
 		)
 		(stroke
@@ -8793,6 +9019,16 @@
 			(type default)
 		)
 		(uuid "ea55cd37-0ee2-4e2e-8496-1d062b54ec19")
+	)
+	(wire
+		(pts
+			(xy 213.36 31.75) (xy 213.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf8834c-0abf-4e90-8293-d98c607b7d98")
 	)
 	(wire
 		(pts
@@ -8886,6 +9122,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 39.37) (xy 190.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34e334a-1d59-4c9d-aacb-cd4b26db710d")
+	)
+	(wire
+		(pts
 			(xy 73.66 27.94) (xy 80.01 27.94)
 		)
 		(stroke
@@ -8926,6 +9172,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 39.37) (xy 208.28 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8608e1d-0fa6-4a17-b054-353c8103ef0b")
+	)
+	(wire
+		(pts
+			(xy 205.74 34.29) (xy 208.28 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f863da65-d7de-4e86-8946-9ea06d32d61d")
+	)
+	(wire
+		(pts
 			(xy 22.86 39.37) (xy 22.86 40.64)
 		)
 		(stroke
@@ -8943,6 +9209,16 @@
 			(type default)
 		)
 		(uuid "fa3f949f-53d9-43d9-ba81-33b756e5a4c0")
+	)
+	(wire
+		(pts
+			(xy 213.36 34.29) (xy 213.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad82b4f-fa7f-44e5-bb0f-72af96fe4513")
 	)
 	(wire
 		(pts
@@ -8996,7 +9272,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 34.29) (xy 195.58 34.29)
+			(xy 115.57 62.23) (xy 120.65 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9036,6 +9312,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 34.29) (xy 208.28 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff27d96c-25c6-4af9-8da9-86c19efbbbe6")
+	)
+	(wire
+		(pts
 			(xy 63.5 170.18) (xy 59.69 170.18)
 		)
 		(stroke
@@ -9043,6 +9329,16 @@
 			(type default)
 		)
 		(uuid "ffd4d4f2-c81f-4556-98ea-b403ce9ed928")
+	)
+	(label "CS_SD"
+		(at 176.53 138.43 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "16d719f0-c9c3-4cdf-847e-a56c051e05d5")
 	)
 	(label "cmd_SD_PWR"
 		(at 35.56 101.6 0)
@@ -9064,6 +9360,16 @@
 		)
 		(uuid "198f140d-c020-4e5f-a900-f781d5439c04")
 	)
+	(label "Btn_User"
+		(at 222.25 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b9ecf66-8213-40d6-bea2-49587a4c0f92")
+	)
 	(label "wind_speed"
 		(at 233.68 81.28 0)
 		(effects
@@ -9075,12 +9381,12 @@
 		(uuid "1caaf977-4396-4a51-9a35-ce160c78c7b6")
 	)
 	(label "Reset"
-		(at 177.8 34.29 0)
+		(at 184.15 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "20f24c1a-009f-4d61-a799-24e488cef59d")
 	)
@@ -9093,6 +9399,26 @@
 			(justify right bottom)
 		)
 		(uuid "2187be8c-a704-4c44-8e4b-e17a2d5a9962")
+	)
+	(label "SPI_SO"
+		(at 184.15 76.2 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "22c2600e-71ed-42fc-8cf7-30ea44ced52c")
+	)
+	(label "RST_LORA"
+		(at 179.07 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28937787-8f31-4d5a-851a-5921a07d3cd8")
 	)
 	(label "SDA"
 		(at 247.65 40.64 0)
@@ -9144,6 +9470,16 @@
 		)
 		(uuid "3649d64c-cc3c-4a5c-8314-354c61f7b221")
 	)
+	(label "CS_SD"
+		(at 179.07 125.73 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "38cbd78a-3dc4-49a8-aa23-ff915207715c")
+	)
 	(label "D-"
 		(at 44.45 119.38 0)
 		(effects
@@ -9163,6 +9499,16 @@
 			(justify left bottom)
 		)
 		(uuid "4cc2ec6d-1e60-4d22-9383-91769f6ef1b2")
+	)
+	(label "RST_DS"
+		(at 179.07 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "538ba095-7e55-4f55-8bd8-7ce2c2fc8526")
 	)
 	(label "cmd_I2C_PWR"
 		(at 123.19 102.87 0)
@@ -9193,6 +9539,16 @@
 			(justify left bottom)
 		)
 		(uuid "7968eb9b-8739-4c34-8ff2-2ad3b95e6369")
+	)
+	(label "SPI_CLK"
+		(at 176.53 146.05 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b5364ea-1e50-4164-ba80-c43fa119cff0")
 	)
 	(label "I2C_PWR"
 		(at 95.25 64.77 180)
@@ -9284,6 +9640,16 @@
 		)
 		(uuid "acbdf036-6cf7-47d3-9e09-9236c6d4259e")
 	)
+	(label "SPI_SI"
+		(at 176.53 140.97 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "adde7906-0b8b-40ad-bc1d-f53840d7a1cc")
+	)
 	(label "SCL"
 		(at 247.65 38.1 0)
 		(effects
@@ -9293,6 +9659,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0f386ee-2a71-40fc-9142-32b7575b47a8")
+	)
+	(label "CS_LORA"
+		(at 184.15 81.28 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3f93540-ea85-4014-83ce-945c1af6b395")
 	)
 	(label "wind_dir"
 		(at 123.19 120.65 0)
@@ -9313,6 +9689,16 @@
 			(justify left bottom)
 		)
 		(uuid "b87b82fc-ee2e-4bd1-b0d3-ff409d4d5e6d")
+	)
+	(label "SPI_SI"
+		(at 176.53 151.13 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "be433b2c-a79c-4c3e-9d80-e6a5cb30bd78")
 	)
 	(label "rain_sensor"
 		(at 232.41 118.11 0)
@@ -9344,15 +9730,55 @@
 		)
 		(uuid "cef43dce-2d8a-427e-b1b7-08f49b81fd2e")
 	)
-	(label "Boot"
-		(at 212.09 34.29 0)
+	(label "RST_DS"
+		(at 246.38 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
+		(uuid "d4b716f9-695a-4320-8ee7-37b30cd72318")
+	)
+	(label "CS_LORA"
+		(at 179.07 123.19 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "e798218d-81b5-4f22-9460-c9570be96a89")
+	)
+	(label "Boot"
+		(at 143.51 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
 		(uuid "ea9996de-3ae5-4e49-b436-05c6ea6a064e")
+	)
+	(label "Btn_User"
+		(at 179.07 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee6e3818-b7cd-4cb1-8b62-85de38fcd186")
+	)
+	(label "SPI_CLK"
+		(at 184.15 78.74 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4966469-c6f2-490e-b274-d8e85763840e")
 	)
 	(label "SD_PWR"
 		(at 93.98 91.44 180)
@@ -9363,6 +9789,26 @@
 			(justify right bottom)
 		)
 		(uuid "f9601e73-65d2-4372-aa08-d5fc27b69468")
+	)
+	(label "SPI_SI"
+		(at 184.15 73.66 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa8a0cc4-929e-4d73-9b7e-98b662e6f9e8")
+	)
+	(label "RST_LORA"
+		(at 184.15 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fddf8b6a-5ec9-4da4-9904-25d7bcd3c0c9")
 	)
 	(label "cmd_SD_PWR"
 		(at 123.19 100.33 0)
@@ -9384,7 +9830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "007c242e-a72b-4fc9-aaa5-9d2583bf06d0")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 128.27 161.29 0)
 			(effects
 				(font
@@ -9434,7 +9880,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9449,7 +9895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01281c6d-e352-4214-afde-79d45212eae7")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 64.262 159.258 0)
 			(effects
 				(font
@@ -9519,7 +9965,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9535,7 +9981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "022a0f69-7464-42aa-991b-9709f4b70e38")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR054"
 			(at 251.46 71.12 0)
 			(effects
 				(font
@@ -9585,7 +10031,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR049")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -9601,7 +10047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03ee97a6-de9a-4ed3-978b-92611b7b6371")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR05"
 			(at 35.56 181.61 0)
 			(effects
 				(font
@@ -9652,7 +10098,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9839,7 +10285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07b1bdcd-bcdf-4b6d-9aaf-606ad0641a28")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR048"
 			(at 204.47 63.5 0)
 			(effects
 				(font
@@ -9889,7 +10335,81 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR045")
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual")
+		(at 200.66 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07c320ba-8218-4704-a443-4c98d16be8a9")
+		(property "Reference" "SW3"
+			(at 200.66 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Dual"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, symbol, four pins"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edd43fd2-c7d2-45cc-9346-9667178c2447")
+		)
+		(pin "3"
+			(uuid "f1f360a1-902f-40ae-9243-10994975ed97")
+		)
+		(pin "4"
+			(uuid "6e66b81f-a197-4458-ac3f-2ba84c6f8fc0")
+		)
+		(pin "1"
+			(uuid "ce9796da-e89d-4dd4-bd75-d9d9b88e61fa")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -9905,7 +10425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07f912fa-8b86-408c-af74-2acb424da817")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 139.7 185.4199 0)
 			(effects
 				(font
@@ -9959,7 +10479,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10038,7 +10558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b5b33dc-a0fb-4c09-9c30-4c039c160568")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 22.86 46.99 0)
 			(effects
 				(font
@@ -10089,7 +10609,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10105,7 +10625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b8089f8-a207-4f44-987e-8879a9b98a69")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR061"
 			(at 267.97 33.02 0)
 			(effects
 				(font
@@ -10155,7 +10675,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR057")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -10171,7 +10691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cd473e2-ce9c-4365-833b-75519639bb11")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 162.56 26.67 0)
 			(effects
 				(font
@@ -10229,7 +10749,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10244,7 +10764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cfefa84-1e2c-4d23-8b3a-652cad469b04")
-		(property "Reference" "C1"
+		(property "Reference" "C6"
 			(at 74.93 69.8499 0)
 			(effects
 				(font
@@ -10298,7 +10818,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10314,7 +10834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f52e74c-4a9f-48e2-9a30-bf92fa0bb370")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 22.86 29.21 0)
 			(effects
 				(font
@@ -10364,7 +10884,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10380,7 +10900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10cbdb7f-6056-4b64-9ce3-f8a95fcde5eb")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR040"
 			(at 153.67 148.59 0)
 			(effects
 				(font
@@ -10431,7 +10951,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR036")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10507,104 +11027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 59.69 67.31 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15169ebd-7b88-455c-b5ae-ecfcdeea6eb5")
-		(property "Reference" "Q1"
-			(at 59.69 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 59.69 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 46.99 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 59.69 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 42.545 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 40.64 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 44.45 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6f155861-22e6-41d5-988d-583874ddd5da")
-		)
-		(pin "1"
-			(uuid "66565568-4cfb-4340-a703-5715d91b7caf")
-		)
-		(pin "2"
-			(uuid "0b79c04b-9777-4edc-bd4f-7f94b70bbfc4")
-		)
-		(instances
-			(project "mSolarWeather"
-				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 251.46 72.39 0)
 		(mirror y)
@@ -10614,7 +11036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15652e65-e330-4f6b-8a1f-fc490b603e6d")
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 248.92 71.1199 0)
 			(effects
 				(font
@@ -10668,7 +11090,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10676,15 +11098,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 148.59 270)
+		(at 176.53 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "17dcb788-99c1-40c2-aa3c-215f6faf4d8c")
-		(property "Reference" "#PWR042"
-			(at 175.26 148.59 0)
+		(property "Reference" "#PWR045"
+			(at 170.18 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10693,7 +11115,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 148.59 0)
+			(at 172.72 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10701,7 +11123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 148.59 0)
+			(at 176.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10709,7 +11131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 148.59 0)
+			(at 176.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,7 +11139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 148.59 0)
+			(at 176.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10731,7 +11153,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR042")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10747,7 +11169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bc7f314-243f-4b50-a5ea-0fd6c279232f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 52.07 151.13 0)
 			(effects
 				(font
@@ -10797,7 +11219,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10813,7 +11235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e0df880-ac64-4200-b2d3-144f022dda46")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 130.81 185.4199 0)
 			(effects
 				(font
@@ -10867,7 +11289,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10883,7 +11305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f35ef99-1608-46e4-b8f1-f118bc802279")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 41.91 88.9 0)
 			(effects
 				(font
@@ -10933,7 +11355,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR011")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10949,7 +11371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21090763-e51f-47c2-bc67-dd8d8a927f82")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 19.05 33.0199 0)
 			(effects
 				(font
@@ -11003,7 +11425,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11020,7 +11442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "250ce6f8-82cb-4765-a145-a0d69ae61b11")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 88.9 132.08 0)
 			(effects
 				(font
@@ -11070,7 +11492,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11078,7 +11500,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 175.26 66.04 180)
+		(at 167.64 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11086,7 +11508,7 @@
 		(dnp no)
 		(uuid "251702c6-f1b1-4273-8824-1c612b2f225a")
 		(property "Reference" "C12"
-			(at 171.45 67.3101 0)
+			(at 163.83 66.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,7 +11517,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 171.45 64.7701 0)
+			(at 163.83 63.5001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +11526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 174.2948 62.23 0)
+			(at 166.6748 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +11535,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 66.04 0)
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11544,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 175.26 66.04 0)
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,7 +11674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2965b833-c7ab-4815-8d54-81104a692377")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR021"
 			(at 86.36 90.17 0)
 			(effects
 				(font
@@ -11303,7 +11725,81 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR03")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6401")
+		(at 58.42 93.98 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a178d86-62d2-449a-b3d4-2519d9cd9bb2")
+		(property "Reference" "Q1"
+			(at 58.42 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRLML6401"
+			(at 58.42 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 56.515 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d17f5ef-8a9a-4234-b1a9-6a3c45706901")
+		)
+		(pin "3"
+			(uuid "2acd19bb-bb90-4c67-9d4d-5e4cb25ad4cb")
+		)
+		(pin "2"
+			(uuid "caf72d0b-4ece-4754-8b98-eef9af771209")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11319,7 +11815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ad5d5d9-bd14-438d-9369-4815a92a5370")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 152.4 52.07 0)
 			(effects
 				(font
@@ -11370,7 +11866,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11385,7 +11881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aec8933-288e-460b-b608-0a7bfad1e860")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 44.45 157.48 0)
 			(effects
 				(font
@@ -11437,7 +11933,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11523,7 +12019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c55c0ee-1da4-410e-834d-fd7fde1d93d8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 124.46 30.48 0)
 			(effects
 				(font
@@ -11573,7 +12069,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11659,7 +12155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f84e381-03bc-46ca-8d64-4027e3fb54fc")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 88.9 152.4 0)
 			(effects
 				(font
@@ -11710,7 +12206,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11725,7 +12221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fa57b4f-3325-4434-abd7-7804f39b7f28")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR060"
 			(at 260.35 35.56 0)
 			(effects
 				(font
@@ -11773,7 +12269,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR056")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -11961,7 +12457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31511c2e-ad1e-42f9-a5b3-93c8a4e1e1aa")
-		(property "Reference" "D1"
+		(property "Reference" "D7"
 			(at 90.424 77.47 90)
 			(effects
 				(font
@@ -12031,7 +12527,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "D1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12146,7 +12642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35fa06aa-a26b-4c42-89e9-a9a362b9d9a5")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 31.75 167.6399 0)
 			(effects
 				(font
@@ -12200,7 +12696,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12216,7 +12712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "375097e1-b7a2-49f2-84cf-18130a784c8d")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR039"
 			(at 153.67 80.01 0)
 			(effects
 				(font
@@ -12266,7 +12762,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR035")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12348,7 +12844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38ae16b3-a1f4-4e02-bf4f-069e3f99cc40")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR059"
 			(at 257.81 137.16 0)
 			(effects
 				(font
@@ -12396,7 +12892,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR055")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -12413,7 +12909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ba9456e-c463-4a9d-a7c0-305b2de636de")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -12463,7 +12959,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12479,7 +12975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c3ffbe9-9e0a-43c9-b4fe-16b1bd08749f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR018"
 			(at 71.12 83.82 0)
 			(effects
 				(font
@@ -12530,7 +13026,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR01")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12546,7 +13042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fd47ffd-c295-4bcd-94ef-0b7f138b45ee")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 138.43 161.29 0)
 			(effects
 				(font
@@ -12596,7 +13092,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12611,7 +13107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42ad9b01-5768-49c0-ac24-b8b607af8226")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR052"
 			(at 229.87 167.64 0)
 			(effects
 				(font
@@ -12659,7 +13155,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR047")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -12870,7 +13366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43198aae-fc5d-42a5-bf35-2ec435db2e7a")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 177.8 26.6699 0)
 			(effects
 				(font
@@ -12924,7 +13420,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13009,7 +13505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4557d3bc-03a2-4a91-8cda-78b027e374d6")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 46.99 128.2699 0)
 			(effects
 				(font
@@ -13063,7 +13559,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13079,7 +13575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "471bc333-6cac-49d5-a680-76ef3f91e84d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 30.48 99.06 0)
 			(effects
 				(font
@@ -13130,7 +13626,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13391,7 +13887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "525bf09c-71ec-490d-9ba1-9c846c122150")
-		(property "Reference" "C16"
+		(property "Reference" "C5"
 			(at 73.66 96.5199 0)
 			(effects
 				(font
@@ -13445,7 +13941,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C16")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13461,7 +13957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54ac503c-4faf-4c15-be33-2d97149d03b9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR044"
 			(at 175.26 52.07 0)
 			(effects
 				(font
@@ -13512,7 +14008,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR039")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13527,7 +14023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54adce2f-0962-4141-842d-976ce0855cb7")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR062"
 			(at 267.97 62.23 0)
 			(effects
 				(font
@@ -13575,7 +14071,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR058")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -13656,6 +14152,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 213.36 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58beee07-3829-4837-8547-2235644f2733")
+		(property "Reference" "#PWR050"
+			(at 213.36 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 213.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 213.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ce997a7-b4b7-4d05-a8ea-6568fb24ffbb")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 38.1 48.26 0)
 		(unit 1)
@@ -13664,7 +14226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59a6b27f-355d-41e1-a342-6a12904c673d")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 41.91 46.9899 0)
 			(effects
 				(font
@@ -13718,7 +14280,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13734,7 +14296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a05ec81-9836-4ed6-9f3c-996b68af7a7b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 38.1 60.96 0)
 			(effects
 				(font
@@ -13785,7 +14347,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -13801,7 +14363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d5d6a2f-e86c-48fd-a088-4cac3bd3f165")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 104.14 46.99 0)
 			(effects
 				(font
@@ -13852,7 +14414,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13867,7 +14429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e1964c0-2e0a-47bc-91f5-73be36924e82")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR047"
 			(at 195.58 123.19 0)
 			(effects
 				(font
@@ -13915,7 +14477,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR044")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13931,7 +14493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ed7c283-3ced-4b85-a1a8-68c4e1e51a6f")
-		(property "Reference" "R1"
+		(property "Reference" "R9"
 			(at 88.9 68.5799 0)
 			(effects
 				(font
@@ -13985,7 +14547,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R1")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -14001,7 +14563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ef91813-9503-4624-8c98-36f4b8a2ee44")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR053"
 			(at 237.49 25.4 0)
 			(effects
 				(font
@@ -14051,7 +14613,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR048")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -14143,7 +14705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6076cba7-16eb-4b96-821b-bc04d0b0d5fd")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR010"
 			(at 49.53 93.98 0)
 			(effects
 				(font
@@ -14193,7 +14755,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR059")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14209,7 +14771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6204555f-35f9-40e4-ad35-cb0c58941614")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 137.16 198.12 0)
 			(effects
 				(font
@@ -14260,7 +14822,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14276,7 +14838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62169219-7aa8-449a-9e36-16ffa1e1b601")
-		(property "Reference" "J10"
+		(property "Reference" "J5"
 			(at 210.185 124.46 0)
 			(effects
 				(font
@@ -14349,7 +14911,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "J10")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14365,7 +14927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65183404-82a2-4b45-b83d-e1c0f611b662")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 59.69 151.13 0)
 			(effects
 				(font
@@ -14415,7 +14977,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14431,7 +14993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "656257c1-2690-4ff3-92b5-b4ef781d565b")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR043"
 			(at 175.26 26.67 0)
 			(effects
 				(font
@@ -14481,7 +15043,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR038")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14498,7 +15060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c13c3ef-b8cc-4cc2-9946-e733fdf6001f")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 118.11 101.5999 0)
 			(effects
 				(font
@@ -14552,7 +15114,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14644,7 +15206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cfd1372-044b-4018-b014-ec1a5e9c5da2")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 132.08 80.01 0)
 			(effects
 				(font
@@ -14695,7 +15257,74 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR031")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dedf16d-7be9-43c0-b27b-e5ba425a00ff")
+		(property "Reference" "#PWR046"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93573d85-3bbc-4c55-814c-3939d795a27a")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14710,7 +15339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6eea769d-d423-4b73-9498-1be1ea9b2692")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR058"
 			(at 257.81 100.33 0)
 			(effects
 				(font
@@ -14758,7 +15387,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR054")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -14774,7 +15403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fecd330-6f58-4bd9-a447-2c60cd69b283")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR011"
 			(at 50.8 67.31 0)
 			(effects
 				(font
@@ -14824,7 +15453,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR050")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14840,7 +15469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71b93f8a-dc69-4777-810d-4cd560a4c6dc")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -14891,7 +15520,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -14907,7 +15536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75188037-5035-4ff5-a61b-58f26b80dfac")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 127 30.4799 0)
 			(effects
 				(font
@@ -14961,7 +15590,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14969,7 +15598,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 182.88 66.04 0)
+		(at 175.26 64.77 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14977,8 +15606,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7706edbf-d623-4fea-8fe2-f53b2cf819bc")
-		(property "Reference" "C13"
-			(at 187.198 65.024 0)
+		(property "Reference" "C14"
+			(at 179.578 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14987,7 +15616,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 186.69 67.564 0)
+			(at 179.07 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14996,7 +15625,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 183.8452 62.23 0)
+			(at 176.2252 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15005,7 +15634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 66.04 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15014,7 +15643,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 182.88 66.04 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15023,7 +15652,7 @@
 			)
 		)
 		(property "Fournisseur" "RS: 648-0941"
-			(at 182.88 66.04 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15032,7 +15661,7 @@
 			)
 		)
 		(property "RS:" ""
-			(at 182.88 66.04 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,7 +15670,7 @@
 			)
 		)
 		(property "fournisseur" ""
-			(at 182.88 66.04 0)
+			(at 175.26 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15058,7 +15687,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -15074,7 +15703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "788e54ad-2708-430c-994e-85cc62aa8b5a")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 148.59 175.2599 0)
 			(effects
 				(font
@@ -15128,7 +15757,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -15144,7 +15773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78fd61c8-d376-48b3-9880-6c5dded9ae35")
-		(property "Reference" "R15"
+		(property "Reference" "R18"
 			(at 234.95 27.9399 0)
 			(effects
 				(font
@@ -15198,7 +15827,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R15")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15300,7 +15929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd0fb0e-ed0a-4b32-a8b6-15013836f1c2")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 146.05 187.96 0)
 			(effects
 				(font
@@ -15351,105 +15980,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 58.42 93.98 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80333bbc-706e-48ef-8cf7-5f8011d2b31b")
-		(property "Reference" "Q2"
-			(at 58.42 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 58.42 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 45.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 58.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 41.275 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 39.37 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 43.18 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1be0e5f7-7c9d-4993-baf6-801300a317ec")
-		)
-		(pin "1"
-			(uuid "6ea17191-3319-4a97-8520-5ad7839bb30f")
-		)
-		(pin "2"
-			(uuid "49b55285-09ea-4c77-a3c5-698b3fd7dd11")
-		)
-		(instances
-			(project "mSolarWeather"
-				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "Q2")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -15464,7 +15995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "842339a1-388f-40a2-94f0-86d7ab14469a")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 145.796 75.692 90)
 			(effects
 				(font
@@ -15545,7 +16076,81 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C10")
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6401")
+		(at 59.69 67.31 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "842c2668-4879-4dc9-821d-cdb79e3a508b")
+		(property "Reference" "Q2"
+			(at 59.69 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRLML6401"
+			(at 59.69 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 57.785 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a78858b9-c6a6-4217-940a-e061b0c40e80")
+		)
+		(pin "3"
+			(uuid "a0397d2a-60f4-4180-8b67-3798beaac9c1")
+		)
+		(pin "2"
+			(uuid "bb96d12b-e6af-4606-a8fc-ce856010b145")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -15560,7 +16165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "845fc7c2-f3c9-43f1-9395-6a8c6f5c8c99")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR057"
 			(at 251.46 137.16 0)
 			(effects
 				(font
@@ -15608,7 +16213,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR053")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -15624,7 +16229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "878386ac-354a-45a2-9a4b-ce4f942e87ad")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR056"
 			(at 251.46 111.76 0)
 			(effects
 				(font
@@ -15674,7 +16279,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR052")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -15682,16 +16287,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 179.07 59.69 0)
+		(at 171.45 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f497499-dbfe-4c6d-b4c4-2f884d4d088f")
-		(property "Reference" "#PWR040"
-			(at 179.07 63.5 0)
+		(property "Reference" "#PWR041"
+			(at 171.45 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15700,7 +16304,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 179.07 54.61 0)
+			(at 171.45 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15708,7 +16312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 59.69 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15717,7 +16321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 59.69 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15726,7 +16330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 179.07 59.69 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15740,7 +16344,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15843,7 +16447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "916b0ae0-ee85-44b7-8518-21c78a0804b3")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR055"
 			(at 251.46 100.33 0)
 			(effects
 				(font
@@ -15891,6 +16495,73 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93d60fdc-5b26-4e8b-9fab-3a6b7a81619f")
+		(property "Reference" "#PWR051"
+			(at 213.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c33d5ac-6af4-4ba6-97a4-26b278c4893c")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -15907,7 +16578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94aa73a8-1787-443a-9b4a-1b469463b7f2")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 59.69 110.236 90)
 			(effects
 				(font
@@ -15977,7 +16648,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15993,7 +16664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97fd0687-222f-4ca3-b1eb-1887b31876fb")
-		(property "Reference" "F3"
+		(property "Reference" "F2"
 			(at 77.47 85.09 90)
 			(effects
 				(font
@@ -16046,7 +16717,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "F3")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -16062,7 +16733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99da0cae-294e-4b16-9e70-ac0e86604c3e")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR017"
 			(at 69.85 110.49 0)
 			(effects
 				(font
@@ -16113,7 +16784,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR060")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16128,7 +16799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d5cfb2c-d382-4502-aaa6-ed85b457cc79")
-		(property "Reference" "C2"
+		(property "Reference" "C10"
 			(at 106.172 101.854 0)
 			(effects
 				(font
@@ -16209,7 +16880,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C2")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -16438,6 +17109,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 213.36 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac7b2128-32af-4a0c-b7cf-37f23cde0c78")
+		(property "Reference" "R17"
+			(at 215.9 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 215.9 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 211.582 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af43f776-3b3e-4dcd-88e0-2f7fec2150ea")
+		)
+		(pin "2"
+			(uuid "d442229c-15df-4c75-bd61-79cf99678c3b")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 251.46 113.03 0)
 		(mirror y)
 		(unit 1)
@@ -16446,7 +17187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af5760d1-2cd6-47f4-a5f0-8f178d5f45ac")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 248.92 111.7599 0)
 			(effects
 				(font
@@ -16500,7 +17241,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -16517,7 +17258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1ab6ccd-1802-4e5c-bafd-2826efa40dc1")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 115.57 115.57 0)
 			(effects
 				(font
@@ -16568,7 +17309,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16584,7 +17325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3f81af5-013f-445f-965c-1e015f2800e8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 88.9 191.77 0)
 			(effects
 				(font
@@ -16635,7 +17376,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16650,7 +17391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7591114-5d6f-4c56-b1e7-20b2fe5610fd")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 36.83 33.0199 0)
 			(effects
 				(font
@@ -16704,7 +17445,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -16720,7 +17461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b78ed1b0-12cd-4ee2-894c-2f7b6de91b46")
-		(property "Reference" "R21"
+		(property "Reference" "R8"
 			(at 87.63 95.2499 0)
 			(effects
 				(font
@@ -16774,7 +17515,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R21")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -16791,7 +17532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba11d2dd-b631-4375-81f5-140f7da98d2e")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 118.11 91.4399 0)
 			(effects
 				(font
@@ -16845,7 +17586,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -16935,7 +17676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be9bfb78-8639-4087-b2dd-3d4f77dee74f")
-		(property "Reference" "R20"
+		(property "Reference" "R2"
 			(at 54.864 95.25 0)
 			(effects
 				(font
@@ -16989,7 +17730,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R20")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -17005,7 +17746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf74974b-c629-4ae1-b0b3-64bb9fac99c8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 124.46 52.07 0)
 			(effects
 				(font
@@ -17056,7 +17797,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17071,7 +17812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c878a612-9240-4e22-9529-c99c5fa37a99")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 204.47 101.6 0)
 			(effects
 				(font
@@ -17119,7 +17860,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -17202,7 +17943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccd375e2-1262-4c6b-abff-51508b71ade7")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR020"
 			(at 85.09 116.84 0)
 			(effects
 				(font
@@ -17253,7 +17994,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR061")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17269,7 +18010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf2b4f5-7f7a-4baf-b869-993d86a59639")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 245.11 27.9399 0)
 			(effects
 				(font
@@ -17323,7 +18064,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -17339,7 +18080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd7eccd6-6cb1-443b-9ca3-1333ec825516")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -17390,7 +18131,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -17406,7 +18147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf44286e-7ca0-4b4a-8d29-4be10f247328")
-		(property "Reference" "D10"
+		(property "Reference" "D6"
 			(at 89.154 104.14 90)
 			(effects
 				(font
@@ -17476,7 +18217,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "D10")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -17491,7 +18232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf57bb3a-9880-49e0-a971-70ded4aa4e5b")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 247.142 86.614 0)
 			(effects
 				(font
@@ -17572,7 +18313,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -17775,15 +18516,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 72.39 0)
+		(at 171.45 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4f69493-9ec6-4df5-9a80-67e86aee1b27")
-		(property "Reference" "#PWR041"
-			(at 179.07 78.74 0)
+		(property "Reference" "#PWR042"
+			(at 171.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17792,7 +18533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 76.2 0)
+			(at 171.45 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17800,7 +18541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 72.39 0)
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17808,7 +18549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 72.39 0)
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17816,7 +18557,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 72.39 0)
+			(at 171.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17830,7 +18571,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -17838,7 +18579,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Dual")
-		(at 200.66 36.83 0)
+		(at 125.73 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17846,8 +18587,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6797222-691a-47f3-aa0e-6f889b864426")
-		(property "Reference" "SW2"
-			(at 200.66 26.67 0)
+		(property "Reference" "SW1"
+			(at 125.73 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17855,7 +18596,7 @@
 			)
 		)
 		(property "Value" "SW_Push_Dual"
-			(at 200.66 29.21 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17863,7 +18604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 29.21 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17872,7 +18613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 36.83 0)
+			(at 125.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17881,7 +18622,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 200.66 36.83 0)
+			(at 125.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17904,7 +18645,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -17979,6 +18720,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 213.36 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da0c6e26-7f5e-42cc-8f65-d2c53ca8c38a")
+		(property "Reference" "C15"
+			(at 217.17 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 217.17 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 214.3252 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 213.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ccc512a9-1795-456d-acc3-ba0611db0a4e")
+		)
+		(pin "1"
+			(uuid "4ecb00de-0bcb-4257-af6c-eb5738d5d4f8")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 191.77 0)
 		(unit 1)
@@ -17988,7 +18798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc4772ec-0480-4c40-863e-8dbe88717b91")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 128.27 198.12 0)
 			(effects
 				(font
@@ -18039,7 +18849,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -18054,7 +18864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcc1083b-0bf9-4c2a-a808-797c523d3fab")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 247.142 123.444 0)
 			(effects
 				(font
@@ -18135,7 +18945,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -18151,7 +18961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8549be-13d4-4d9d-b2af-673a1e39d9a5")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 92.71 46.99 0)
 			(effects
 				(font
@@ -18202,7 +19012,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -18217,7 +19027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "def0a353-5e76-4dc4-b98d-8b25201020c2")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 179.07 39.3699 0)
 			(effects
 				(font
@@ -18271,7 +19081,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -18287,7 +19097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e170b3be-e456-444c-9d13-cecf7777bb3f")
-		(property "Reference" "F2"
+		(property "Reference" "F3"
 			(at 78.74 58.42 90)
 			(effects
 				(font
@@ -18340,7 +19150,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "F2")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -18423,7 +19233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5561cca-444a-4afa-a74d-cc81264ca29c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 26.67 181.61 0)
 			(effects
 				(font
@@ -18474,7 +19284,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR07")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -18482,7 +19292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 45.72 0)
+		(at 115.57 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18490,8 +19300,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc04c5c-d29a-4a77-86df-58111ba46c13")
-		(property "Reference" "#PWR043"
-			(at 190.5 52.07 0)
+		(property "Reference" "#PWR027"
+			(at 115.57 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18500,7 +19310,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 46.9899 0)
+			(at 118.11 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18509,7 +19319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 45.72 0)
+			(at 115.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18518,7 +19328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 45.72 0)
+			(at 115.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18527,7 +19337,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 45.72 0)
+			(at 115.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18541,7 +19351,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR043")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -18557,7 +19367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f19864fd-baf8-4887-a345-065344d79f68")
-		(property "Reference" "R18"
+		(property "Reference" "R3"
 			(at 56.134 68.58 0)
 			(effects
 				(font
@@ -18611,7 +19421,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "R18")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -18626,7 +19436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3d9c8f9-bd37-4f3a-aa25-fcb712f328ce")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 64.262 172.974 0)
 			(effects
 				(font
@@ -18696,7 +19506,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -18712,7 +19522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f736f3a5-8a7b-4c8c-8748-536b3e234a33")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR09"
 			(at 44.45 143.51 0)
 			(effects
 				(font
@@ -18763,7 +19573,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR013")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -18779,7 +19589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8cd85d2-fc83-4bee-84dc-086df102e0b0")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 72.39 114.3 0)
 			(effects
 				(font
@@ -18830,7 +19640,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18846,7 +19656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8d5ae30-595b-4155-b14c-485894fe8319")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -18896,7 +19706,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -18911,7 +19721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fedb9a27-d845-4de4-bff8-1f8faffef26e")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 54.61 152.4 0)
 			(effects
 				(font
@@ -18963,7 +19773,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
