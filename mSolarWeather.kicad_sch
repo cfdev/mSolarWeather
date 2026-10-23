@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Solar Weather Station")
-		(date "2026-10-22")
-		(rev "0.3")
+		(date "2026-10-23")
+		(rev "0.9")
 		(company "Cyril Frausti")
 		(comment 1 "For safety this design is for Batt LiFePo4")
 		(comment 2 "the brain of this Weather Station is an ESP32-S3-WROOM-1.")
@@ -5657,17 +5657,6 @@
 		)
 		(uuid "655ac546-4897-4ce0-a1ab-eeaa47b24836")
 	)
-	(text "TODO :\nIRQ for Lora/Rtc"
-		(exclude_from_sim no)
-		(at 147.066 25.908 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ccc1ff33-b983-4927-96bb-1e78f5549dfa")
-	)
 	(junction
 		(at 204.47 135.89)
 		(diameter 0)
@@ -5703,6 +5692,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2240983e-02e3-4cae-92e7-0f1ee66a03b6")
+	)
+	(junction
+		(at 173.99 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e0138ba-e8c7-40b7-a8c6-8ea31e3794f9")
 	)
 	(junction
 		(at 181.61 140.97)
@@ -5843,6 +5838,12 @@
 		(uuid "ece09c89-f33f-4939-b0bd-a4d66650ccf2")
 	)
 	(junction
+		(at 160.02 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f56b4c78-2b6c-415d-b8a2-3ebdb7783ab4")
+	)
+	(junction
 		(at 248.92 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5871,10 +5872,6 @@
 		(uuid "37e320ea-b7a6-4a4a-b1a7-07e4d634cb08")
 	)
 	(no_connect
-		(at 189.23 97.79)
-		(uuid "48a93d8d-e242-44da-8706-7d01797ba3fb")
-	)
-	(no_connect
 		(at 64.77 86.36)
 		(uuid "50d16305-ad85-453b-92ac-866d759eed81")
 	)
@@ -5893,10 +5890,6 @@
 	(no_connect
 		(at 109.22 86.36)
 		(uuid "74e88caa-addf-4ffc-a3d5-258dda64f1d0")
-	)
-	(no_connect
-		(at 109.22 91.44)
-		(uuid "7cd61b9c-830f-4068-988b-15e9321e22e8")
 	)
 	(no_connect
 		(at 189.23 82.55)
@@ -5943,10 +5936,6 @@
 		(uuid "e77345f1-4eec-4386-9713-2b69ff2b179b")
 	)
 	(no_connect
-		(at 189.23 90.17)
-		(uuid "e9f30646-8a4b-4f5a-983b-5fe4c1290061")
-	)
-	(no_connect
 		(at 158.75 69.85)
 		(uuid "eb16f537-f01c-463a-bc4a-94a35e1bb8e0")
 	)
@@ -5957,10 +5946,6 @@
 	(no_connect
 		(at 109.22 99.06)
 		(uuid "ef407091-3844-429a-a610-0dbad2dacfed")
-	)
-	(no_connect
-		(at 64.77 93.98)
-		(uuid "f05541ec-3ff7-4d6f-977e-f69a25460160")
 	)
 	(no_connect
 		(at 256.54 86.36)
@@ -6143,6 +6128,16 @@
 			(type default)
 		)
 		(uuid "0e962c0a-34c2-4a45-954e-9342b724461f")
+	)
+	(wire
+		(pts
+			(xy 168.91 35.56) (xy 173.99 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f623cb5-5380-4bfb-b743-17e146c682f8")
 	)
 	(wire
 		(pts
@@ -6746,7 +6741,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 41.91) (xy 173.99 44.45)
+			(xy 160.02 44.45) (xy 161.29 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592787b6-33d1-4970-bfd6-229dbb3d3a58")
+	)
+	(wire
+		(pts
+			(xy 173.99 35.56) (xy 173.99 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6773,6 +6778,16 @@
 			(type default)
 		)
 		(uuid "5af5c2d0-6aed-4ba5-a83d-d0111b94d470")
+	)
+	(wire
+		(pts
+			(xy 161.29 35.56) (xy 160.02 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1f2877-c24c-4e2c-b76b-80a72d8c21e3")
 	)
 	(wire
 		(pts
@@ -6876,6 +6891,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 93.98) (xy 72.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6618fa4b-3532-4d8e-82ab-802bcaa66983")
+	)
+	(wire
+		(pts
 			(xy 115.57 146.05) (xy 115.57 147.32)
 		)
 		(stroke
@@ -6893,6 +6918,16 @@
 			(type default)
 		)
 		(uuid "6704e383-00cd-4d2e-afd7-2e8ec19edfd9")
+	)
+	(wire
+		(pts
+			(xy 189.23 97.79) (xy 204.47 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67684400-d52b-48f8-8707-198a35200186")
 	)
 	(wire
 		(pts
@@ -7186,6 +7221,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 90.17) (xy 204.47 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8d60a8-1656-435f-af50-b04d6570f0ec")
+	)
+	(wire
+		(pts
 			(xy 99.06 71.12) (xy 99.06 76.2)
 		)
 		(stroke
@@ -7253,6 +7298,16 @@
 			(type default)
 		)
 		(uuid "8b8c4bd7-f6b0-4ad4-a683-98472ae7778a")
+	)
+	(wire
+		(pts
+			(xy 173.99 34.29) (xy 173.99 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902c0711-be5e-4430-adcd-ed008e9533a4")
 	)
 	(wire
 		(pts
@@ -7726,6 +7781,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 35.56) (xy 160.02 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d135b773-a257-42ef-9a54-fd45a52fead7")
+	)
+	(wire
+		(pts
 			(xy 256.54 81.28) (xy 246.38 81.28)
 		)
 		(stroke
@@ -7886,7 +7951,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 44.45) (xy 161.29 44.45)
+			(xy 158.75 44.45) (xy 160.02 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7993,6 +8058,16 @@
 			(type default)
 		)
 		(uuid "ecdc8776-d86c-4f1b-95d0-19c6e3dd5e56")
+	)
+	(wire
+		(pts
+			(xy 109.22 91.44) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed07ee74-d59f-42b3-a167-a245913ca0ba")
 	)
 	(wire
 		(pts
@@ -8364,6 +8439,16 @@
 		)
 		(uuid "6741f307-1cb6-4b5e-b0b4-edb1febb1966")
 	)
+	(label "IRQ_Lora"
+		(at 204.47 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f7dfe40-9877-4a2e-93ad-33f95ad68130")
+	)
 	(label "USB_D+"
 		(at 107.95 173.99 180)
 		(effects
@@ -8594,6 +8679,16 @@
 		)
 		(uuid "d23ca049-7137-40f4-996d-c065490b05be")
 	)
+	(label "IRQ_Lora"
+		(at 119.38 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d28663d7-4620-4c1e-9e5c-2a45f95b5ac8")
+	)
 	(label "wind_speed"
 		(at 231.14 44.45 0)
 		(effects
@@ -8614,6 +8709,16 @@
 		)
 		(uuid "dae4d408-95f4-4cf6-be5a-d61bc1663d8c")
 	)
+	(label "IRQ_DS"
+		(at 204.47 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de693434-c477-4e82-bebc-f10f4ea6fb15")
+	)
 	(label "cmd_Lora_PWR"
 		(at 19.05 39.37 0)
 		(effects
@@ -8623,6 +8728,16 @@
 			(justify left bottom)
 		)
 		(uuid "e39bd2a7-932c-422a-85c4-3ae8bfdd33d5")
+	)
+	(label "IRQ_DS"
+		(at 72.39 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e925033f-451c-49ee-b52a-b14d51fc8e66")
 	)
 	(label "D+"
 		(at 86.36 173.99 0)
@@ -10064,7 +10179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" ""
 			(at 124.46 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10392,7 +10507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26bf5d74-2dc1-4263-8652-858acb77bf7f")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 242.062 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10489,7 +10604,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10935,7 +11050,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 173.99 41.91 0)
+		(at 173.99 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10946,7 +11061,7 @@
 		(fields_autoplaced yes)
 		(uuid "32265be2-dd34-4e02-9e93-b78cb21b01ad")
 		(property "Reference" "#PWR018"
-			(at 173.99 45.72 0)
+			(at 173.99 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10957,7 +11072,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 173.99 36.83 0)
+			(at 173.99 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10967,7 +11082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 41.91 0)
+			(at 173.99 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10978,7 +11093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 41.91 0)
+			(at 173.99 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10989,7 +11104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 173.99 41.91 0)
+			(at 173.99 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11202,6 +11317,87 @@
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "39c82fd0-dfb9-479f-be64-d497f3f46565")
+		(property "Reference" "C6"
+			(at 164.338 32.258 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 171.196 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 168.91 34.5948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/940/1/c_mlcc_A_e.pdf"
+			(at 165.1 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor MLCC - CMS 1210 16V X7R 22uF 20% AEC-Q200"
+			(at 165.1 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "71281102-cc28-42ed-82ac-74a03e686db3")
+		)
+		(pin "1"
+			(uuid "28c2e9b3-9389-4108-8435-4494af7063e0")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11653,7 +11849,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5413fbb2-915f-4a1b-907f-539e0a5921ee")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 208.28 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11717,7 +11913,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11917,7 +12113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" ""
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12409,7 +12605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" ""
 			(at 233.68 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12768,8 +12964,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bb6bd55-73d2-4b20-9162-1063832afffe")
-		(property "Reference" "C6"
-			(at 166.116 40.132 90)
+		(property "Reference" "C7"
+			(at 163.322 40.894 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12780,7 +12976,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 167.64 48.26 90)
+			(at 172.466 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12865,7 +13061,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14514,7 +14710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" ""
 			(at 107.95 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14592,7 +14788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" ""
 			(at 124.46 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -15208,7 +15404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1569b05-64ff-4c73-a0df-e2cfb73ec670")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 242.062 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15305,7 +15501,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
