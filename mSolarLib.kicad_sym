@@ -247,6 +247,25 @@
 			(pin bidirectional line
 				(at -15.24 -10.16 0)
 				(length 5.08)
+				(hide yes)
+				(name "Thermal"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -10.16 0)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
