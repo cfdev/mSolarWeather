@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Solar Weather Station")
-		(date "2026-10-25")
+		(date "2026-11-09")
 		(rev "0.9")
 		(company "Cyril Frausti")
 		(comment 1 "Power sheet of the solar weather station")
@@ -5276,7 +5276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d4379c6-de93-45d8-b9dd-56d4ff63762d")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 44.45 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5351,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5650,7 +5650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2614498a-c575-4465-8c9e-0f6739e381bb")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 152.4 147.9549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5736,7 +5736,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6381,7 +6381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 46.99 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7137,7 +7137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f4c999c-ca1d-4c3b-a776-71ea1ddd6c0c")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 109.22 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7212,7 +7212,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7387,7 +7387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50f5b7f0-9be1-4ba4-a58c-38600fade179")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 62.23 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7462,7 +7462,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7636,7 +7636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69a8ee23-dbdf-46fe-a42b-69d58f2859e6")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 133.35 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7711,7 +7711,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8868,7 +8868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93fcb40b-efe4-44f3-b5b9-0ad6174b59f1")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 257.81 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +8943,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -9241,7 +9241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 237.49 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9514,7 +9514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a623d905-6aa5-4d93-ab2f-bf08deea1365")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 257.81 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9589,7 +9589,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9607,7 +9607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adcea041-093c-428c-a631-e409420d8cb1")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 31.75 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9680,7 +9680,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -9979,7 +9979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b53a9bbf-4d71-4d37-a5a9-21f9ef96d69e")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 43.18 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10054,7 +10054,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10257,7 +10257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7c0aceb-8609-4cfd-8a3d-1ce24348f018")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 121.92 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10332,7 +10332,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10369,7 +10369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 237.49 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10451,7 +10451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bba974a9-a818-4bb4-9044-c626f60477e1")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 67.31 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10526,7 +10526,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -11092,7 +11092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 237.49 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11175,7 +11175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da0c23dc-16f9-41b5-9ac8-cd44516ddb6e")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 32.766 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11250,7 +11250,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11807,7 +11807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eef101a2-17b4-4041-adfe-1d149d494f52")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 257.81 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11882,7 +11882,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
