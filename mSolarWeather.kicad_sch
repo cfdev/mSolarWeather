@@ -9869,7 +9869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0813e823-09ef-498e-a024-78a006ddd2fc")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 80.01 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9927,7 +9927,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10024,7 +10024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bc7af2a-a7d2-4557-8471-238b9cd1229e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 246.38 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10084,7 +10084,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10530,7 +10530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c9f91d1-8190-49c0-b307-00bcf40b3a82")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 106.68 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10591,7 +10591,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10858,7 +10858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24b0d200-227b-4335-9a09-8490275a2984")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 173.99 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10919,7 +10919,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11155,7 +11155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fea1213-353f-49d0-8397-c676df889ae6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 208.28 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11216,7 +11216,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11234,7 +11234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32265be2-dd34-4e02-9e93-b78cb21b01ad")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 173.99 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11294,7 +11294,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12150,7 +12150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51a9d03a-b643-40f8-bde8-ed2cad9816ea")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 252.73 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12208,7 +12208,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12225,7 +12225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "520e4437-4c02-4aec-aa9a-4a89eebbccd3")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 252.73 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12283,7 +12283,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12486,7 +12486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "579ed6c4-ea03-4754-b5f2-274c34264b6e")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR03"
 			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12546,7 +12546,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR062")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12564,7 +12564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "591c2c64-32f8-46dc-b52f-a2a858b555b2")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 152.4 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12625,7 +12625,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12930,7 +12930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63eb1cbf-891b-4905-8558-d51f7e8003b3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 190.5 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12991,7 +12991,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13102,7 +13102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "648dbeb4-27fc-444b-9707-458826d89856")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 87.63 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13162,7 +13162,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13272,7 +13272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6918e3de-1e00-4dca-9e41-c53885b67fd8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 246.38 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13330,7 +13330,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13348,7 +13348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "727241dc-bf9a-4fc6-9d51-2d67b4eca67c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 144.78 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -13408,7 +13408,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13610,7 +13610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bb103a1-4e23-44bf-b933-52e934c469f2")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 74.93 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13668,7 +13668,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13810,7 +13810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c1b9c2e-27b2-4a73-9e16-ed3d6b96f885")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 245.11 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13868,7 +13868,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13885,7 +13885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d02dfb7-fa16-4c93-a10f-e50ed3e15966")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 246.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13943,7 +13943,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14249,7 +14249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d1b25f7-e435-4db9-868e-2629783dbfdb")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 66.04 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14307,7 +14307,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14325,7 +14325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90a8efee-b6d8-44bb-955f-4f2f1edcaf89")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 246.38 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14385,7 +14385,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14696,7 +14696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a643836f-985d-4fae-b2a4-0b1804b9a897")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -14754,7 +14754,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -15053,7 +15053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4759938-5066-46ef-998f-3e574244b41f")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 87.63 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -15114,7 +15114,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15132,7 +15132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7da876f-ae96-420a-8e39-af2a9dbe7d66")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 190.5 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -15192,7 +15192,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15211,7 +15211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdeb3082-9b83-48b1-8187-e58565774237")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15271,7 +15271,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15290,7 +15290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e176ab-b910-49f3-a2f3-81866669e60b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 127 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15351,7 +15351,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15369,7 +15369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0fa5caa-e033-4a82-9dce-1c656eef4bfd")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 144.78 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15430,7 +15430,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15447,7 +15447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9f80123-c0f6-42b2-acbb-2c97d8553ad1")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 99.06 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -15505,7 +15505,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16132,7 +16132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0c65ab3-5f61-4e9e-98b9-fc835897f33c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 140.97 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16193,7 +16193,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -16211,7 +16211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f550212a-dcdc-4879-b5ef-6eaae7996902")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 144.78 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -16272,7 +16272,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
