@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Solar Weather Station")
-		(date "2026-11-09")
+		(date "2026-11-13")
 		(rev "0.9")
 		(company "Cyril Frausti")
 		(comment 1 "Power sheet of the solar weather station")
@@ -3306,8 +3306,8 @@
 		)
 	)
 	(rectangle
-		(start 160.02 142.24)
-		(end 181.61 166.37)
+		(start 232.41 38.1)
+		(end 251.46 62.23)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3315,7 +3315,43 @@
 		(fill
 			(type none)
 		)
-		(uuid "10691630-786a-41ae-b943-70aed1050f63")
+		(uuid "022d1718-b633-4ca7-9158-041ea55f5a33")
+	)
+	(rectangle
+		(start 161.29 142.24)
+		(end 180.34 166.37)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "22f84cda-b493-4cb7-b6e3-c3f9d1d5ce2c")
+	)
+	(rectangle
+		(start 232.41 133.35)
+		(end 251.46 157.48)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3294f526-43de-49c7-92e2-2395fd2aa277")
+	)
+	(rectangle
+		(start 232.41 85.09)
+		(end 251.46 109.22)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d42c9194-fd99-4b8e-b415-56bea6ff2b2c")
 	)
 	(text "High Efficiency Single Inductor\nBuck-Boost Converter with 4A Switch"
 		(exclude_from_sim no)
@@ -3326,6 +3362,26 @@
 			)
 		)
 		(uuid "1a65b80f-934f-45f6-b5f0-4104e8f91737")
+	)
+	(text "DEBUG"
+		(exclude_from_sim no)
+		(at 164.846 165.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38d674d7-7dd6-4862-90f2-6bec62f92ad7")
+	)
+	(text "DEBUG"
+		(exclude_from_sim no)
+		(at 235.966 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53391eda-f356-4411-b1a5-9d9b76b7f6fb")
 	)
 	(text "USB / Solar LiFePo4 charger\nILIM1100 - VBATREG: 3.65v (LiFePo4)\nCharge current accuracy at 500 mA"
 		(exclude_from_sim no)
@@ -3346,6 +3402,26 @@
 			)
 		)
 		(uuid "6cb2f041-c00c-43c5-b666-42045df7d47a")
+	)
+	(text "DEBUG"
+		(exclude_from_sim no)
+		(at 235.966 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a313a6f4-8d38-409d-9966-4c20a788e099")
+	)
+	(text "DEBUG"
+		(exclude_from_sim no)
+		(at 235.966 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da758feb-1653-4bc0-b670-ed0377ec5335")
 	)
 	(junction
 		(at 63.5 157.48)
@@ -3412,12 +3488,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f44573c-9466-4bf4-ab3b-cde78e6aeb9c")
-	)
-	(junction
-		(at 85.09 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4213b984-8d6d-4c27-a6a4-fa8ca7dca3f4")
 	)
 	(junction
 		(at 165.1 143.51)
@@ -4057,16 +4127,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 29.21) (xy 92.71 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61e2c511-3517-43f9-9441-d0b475f143f0")
-	)
-	(wire
-		(pts
 			(xy 71.12 62.23) (xy 71.12 80.01)
 		)
 		(stroke
@@ -4654,16 +4714,6 @@
 			(type default)
 		)
 		(uuid "e0ed92b3-42ed-4ddb-8ab9-76c32b311b66")
-	)
-	(wire
-		(pts
-			(xy 92.71 30.48) (xy 85.09 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1eb8546-e47d-4bb8-98a6-068629857b54")
 	)
 	(wire
 		(pts
@@ -9192,7 +9242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99fdb70d-f144-4a80-8ea3-e5c7e951a962")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 106.934 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9264,7 +9314,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -9963,7 +10013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b497a120-33a9-49cc-aabc-ed6e43b03e44")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 255.524 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10035,7 +10085,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -10977,7 +11027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c25b3583-ba50-4ecb-a48e-6b6103ee2faf")
-		(property "Reference" "TP4"
+		(property "Reference" "TP6"
 			(at 255.524 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11049,7 +11099,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "TP4")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -11510,7 +11560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbb2c118-a141-4798-8b14-465ddc9a04fd")
-		(property "Reference" "TP5"
+		(property "Reference" "TP7"
 			(at 255.524 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11582,7 +11632,7 @@
 		(instances
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "TP5")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -12300,95 +12350,6 @@
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.71 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f68c34c1-f611-46d5-8f00-73ab34b19661")
-		(property "Reference" "TP1"
-			(at 94.234 24.638 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBatt"
-			(at 94.234 27.178 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 97.79 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.71 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 92.71 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc00786a-3058-4915-a9e2-48cc4d4a4b8f")
-		)
-		(instances
-			(project "mSolarWeather"
-				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54/37fb261d-6dac-442b-bc50-de7df4055198"
-					(reference "TP1")
 					(unit 1)
 				)
 			)

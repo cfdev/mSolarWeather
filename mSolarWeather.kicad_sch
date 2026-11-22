@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Solar Weather Station")
-		(date "2026-11-09")
+		(date "2026-11-13")
 		(rev "0.9")
 		(company "Cyril Frausti")
 		(comment 1 "For safety this design is for Batt LiFePo4")
@@ -610,6 +610,129 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6138,7 +6261,7 @@
 		(uuid "f5326fa2-5ee4-4028-8224-e0f8246564ca")
 	)
 	(no_connect
-		(at 200.66 31.75)
+		(at 195.58 29.21)
 		(uuid "f8e76dd7-1eb0-4c0b-b63e-c768c90ca394")
 	)
 	(wire
@@ -6383,7 +6506,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 20.32) (xy 208.28 24.13)
+			(xy 203.2 17.78) (xy 203.2 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6463,7 +6586,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 39.37) (xy 208.28 40.64)
+			(xy 203.2 36.83) (xy 203.2 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6753,6 +6876,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 80.01) (xy 223.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da835da-f0a9-4ea4-a606-d516057d3dcf")
+	)
+	(wire
+		(pts
 			(xy 82.55 76.2) (xy 81.28 76.2)
 		)
 		(stroke
@@ -6853,7 +6986,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 20.32) (xy 208.28 20.32)
+			(xy 205.74 17.78) (xy 203.2 17.78)
 		)
 		(stroke
 			(width 0)
@@ -7183,6 +7316,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 44.45) (xy 246.38 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679f136a-2843-4212-bd13-8f14d111f73b")
+	)
+	(wire
+		(pts
 			(xy 87.63 187.96) (xy 77.47 187.96)
 		)
 		(stroke
@@ -7240,16 +7383,6 @@
 			(type default)
 		)
 		(uuid "6adf80b7-b22f-41a8-a63f-f1b7893255a1")
-	)
-	(wire
-		(pts
-			(xy 231.14 44.45) (xy 246.38 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b776f00-a89c-4c2d-b6e6-519ecaf0895c")
 	)
 	(wire
 		(pts
@@ -7493,16 +7626,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 81.28) (xy 246.38 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e24b85-0178-4082-82d6-79bc8abeca5d")
-	)
-	(wire
-		(pts
 			(xy 68.58 182.88) (xy 68.58 187.96)
 		)
 		(stroke
@@ -7550,6 +7673,16 @@
 			(type default)
 		)
 		(uuid "89329efc-0f24-4251-b7ad-64c3ec81e3f1")
+	)
+	(wire
+		(pts
+			(xy 220.98 43.18) (xy 220.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dbe3d8-8168-4438-b6d9-6dcb5e0602f7")
 	)
 	(wire
 		(pts
@@ -7700,6 +7833,26 @@
 			(type default)
 		)
 		(uuid "a32d1274-0de0-42a2-82da-d0067ae01df6")
+	)
+	(wire
+		(pts
+			(xy 223.52 39.37) (xy 223.52 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3969c2a-1aa0-4b44-97c1-1b2b95c83af2")
+	)
+	(wire
+		(pts
+			(xy 223.52 41.91) (xy 246.38 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b169a6-9c88-47a1-b1ee-4e11bb31990a")
 	)
 	(wire
 		(pts
@@ -7913,16 +8066,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 41.91) (xy 246.38 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb792dae-af04-4283-ab16-4b0db3ba2ab3")
-	)
-	(wire
-		(pts
 			(xy 45.72 73.66) (xy 49.53 73.66)
 		)
 		(stroke
@@ -8093,7 +8236,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 31.75) (xy 224.79 31.75)
+			(xy 210.82 29.21) (xy 219.71 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8240,6 +8383,16 @@
 			(type default)
 		)
 		(uuid "e14cf501-7f41-4032-bce9-d13d5b39abab")
+	)
+	(wire
+		(pts
+			(xy 223.52 81.28) (xy 246.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a1bead-4da3-4327-b4ed-36efbcf50f3d")
 	)
 	(wire
 		(pts
@@ -8922,7 +9075,7 @@
 		(uuid "a2b033e3-3358-494f-930c-35dbb9000034")
 	)
 	(label "neoPixel"
-		(at 224.79 31.75 180)
+		(at 219.71 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9173,7 +9326,7 @@
 	)
 	(global_label "LED_PWR"
 		(shape input)
-		(at 210.82 20.32 0)
+		(at 205.74 17.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9183,7 +9336,7 @@
 		)
 		(uuid "889d283c-fd8c-420a-a77a-ce9b0d1f075e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.2113 20.32 0)
+			(at 217.1313 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9515,7 +9668,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 172.72 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10470,7 +10623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 127 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11144,7 +11297,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 40.64 0)
+		(at 203.2 38.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11156,7 +11309,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fea1213-353f-49d0-8397-c676df889ae6")
 		(property "Reference" "#PWR023"
-			(at 208.28 46.99 0)
+			(at 203.2 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11167,7 +11320,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 41.9099 0)
+			(at 200.66 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11178,7 +11331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 40.64 0)
+			(at 203.2 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11189,7 +11342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 40.64 0)
+			(at 203.2 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11200,7 +11353,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 40.64 0)
+			(at 203.2 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13448,7 +13601,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 96.52 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -13951,7 +14104,7 @@
 	)
 	(symbol
 		(lib_id "LED:Inolux_IN-PI554FCH")
-		(at 208.28 31.75 0)
+		(at 203.2 29.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13962,7 +14115,7 @@
 		(dnp no)
 		(uuid "7e047826-1fe6-4263-96a0-5757aa059463")
 		(property "Reference" "D5"
-			(at 205.486 25.146 0)
+			(at 200.406 22.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13972,7 +14125,7 @@
 			)
 		)
 		(property "Value" "LED RGB NeoPixel"
-			(at 198.628 38.608 0)
+			(at 193.548 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13982,7 +14135,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 207.01 39.37 0)
+			(at 201.93 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13994,7 +14147,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
-			(at 205.74 41.275 0)
+			(at 200.66 38.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14006,7 +14159,7 @@
 			)
 		)
 		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
-			(at 208.28 31.75 0)
+			(at 203.2 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14017,7 +14170,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 208.28 31.75 0)
+			(at 203.2 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14386,6 +14539,96 @@
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 220.98 43.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ac238ef-87be-4c07-801b-d0e16988876e")
+		(property "Reference" "TP1"
+			(at 219.456 38.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPWindDir"
+			(at 219.456 41.148 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 215.9 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 220.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 220.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35ec0da8-4ab5-4f24-a4be-0221f744e582")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -15042,6 +15285,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1ecc88d-30df-41f4-8c26-2c000344bcf0")
+		(property "Reference" "TP2"
+			(at 225.044 34.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPWindDir"
+			(at 225.044 37.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 228.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 223.52 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 223.52 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b37a892-f5ee-4061-a0ab-428743690cb7")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 191.77 0)
 		(unit 1)
@@ -15431,6 +15763,95 @@
 			(project "mSolarWeather"
 				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d83b582c-9801-47c5-8574-8408253f1699")
+		(property "Reference" "TP3"
+			(at 225.044 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPRain"
+			(at 225.044 77.978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 228.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 223.52 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 223.52 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb43eec3-d9a4-4974-895d-b4c2391d862f")
+		)
+		(instances
+			(project "mSolarWeather"
+				(path "/8cb2730a-92d4-4d73-8ee8-3d09d9726f54"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
