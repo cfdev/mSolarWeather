@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Solar Weather Station")
-		(date "2026-11-13")
-		(rev "0.9")
+		(date "2026-11-25")
+		(rev "1.0")
 		(company "Cyril Frausti")
 		(comment 1 "For safety this design is for Batt LiFePo4")
 		(comment 2 "the brain of this Weather Station is an ESP32-S3-WROOM-1.")
